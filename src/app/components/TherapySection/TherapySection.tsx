@@ -2,9 +2,7 @@ import React from 'react';
 import styles from './TherapySection.module.scss';
 import PriorityAreasItemSection from '../PriorityAreasItemSection/PriorityAreasItemSection';
 
-type Props = {};
-
-const TherapySection = (props: Props) => {
+const TherapySection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.contentHeader}>

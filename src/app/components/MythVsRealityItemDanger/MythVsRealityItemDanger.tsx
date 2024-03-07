@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import styles from './MythVsRealityItemDanger.module.scss';
 import { mythVsRealityItemDanger } from '@/app/utils/constants';
-type Props = {};
 
-const MythVsRealityItemDanger = (props: Props) => {
+const MythVsRealityItemDanger = () => {
   return (
     <div className={styles.container}>
       <div className={styles.text}>

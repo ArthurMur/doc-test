@@ -2,9 +2,7 @@ import Image from 'next/image';
 import styles from './MythVsRealityItemMan.module.scss';
 import { mythVsRealityItemMan } from '@/app/utils/constants';
 
-type Props = {};
-
-const MythVsRealityItemMan = (props: Props) => {
+const MythVsRealityItemMan = () => {
   return (
     <div className={styles.container}>
       <div className={styles.text}>

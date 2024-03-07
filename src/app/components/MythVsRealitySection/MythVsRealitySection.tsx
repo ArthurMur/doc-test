@@ -2,9 +2,7 @@ import styles from './MythVsRealitySection.module.scss';
 import { mythVsRealityItems } from '@/app/utils/constants';
 import MythVsRealityItem from '../MythVsRealityItem/MythVsRealityItem';
 
-type Props = {};
-
-export default function MythVsRealitySection({}: Props) {
+export default function MythVsRealitySection() {
   return (
     <div className={styles.container}>
       <div className={styles.contentHeader}>

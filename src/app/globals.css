@@ -2,16 +2,8 @@
 @import url('./vendor/fonts/font.css');
 
 :root {
-  --max-width: 1920px;
   --border-radius: 20px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 216, 239, 255;
-
   --blue: rgb(1, 69, 122);
   --blue2: rgb(216, 239, 255);
   --white: rgb(255, 255, 255);
@@ -36,12 +28,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-    to bottom,
-    rgb(var(--background-start-rgb)),
-    rgb(var(--background-end-rgb))
-  );
-  background-image: url('/header-img.png');
+  background-image: url('/header-img.png'),
+    linear-gradient(to bottom, var(--white), var(--blue2));
   background-repeat: no-repeat;
   background-position: top left;
 }

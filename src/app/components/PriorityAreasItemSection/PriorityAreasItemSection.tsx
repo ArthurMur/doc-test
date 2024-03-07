@@ -6,9 +6,7 @@ import styles from './PriorityAreasItemSection.module.scss';
 import PriorityAreasItemWIthImage from '../PriorityAreasItemWIthImage/PriorityAreasItemWIthImage';
 import PriorityAreasItem from '../PriorityAreasItem/PriorityAreasItem';
 
-type Props = {};
-
-const PriorityAreasItemSection = (props: Props) => {
+const PriorityAreasItemSection = () => {
   return (
     <div className={styles.container}>
       <p className={styles.subtitle}>
