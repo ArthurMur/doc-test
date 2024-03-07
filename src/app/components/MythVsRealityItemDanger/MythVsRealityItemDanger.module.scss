@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  @media screen and (max-width: 600px) {
+    gap: 20px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 41px;
+  width: 100%;
+  text-align: center;
+
+  @media screen and (max-width: 600px) {
+    line-height: normal;
+  }
+}
