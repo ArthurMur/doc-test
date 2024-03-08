@@ -7,8 +7,10 @@ const MythVsRealityItemDanger = () => {
     <div className={styles.container}>
       <div className={styles.text}>
         <div className={styles.text}>
-          {mythVsRealityItemDanger.map((text) => (
-            <p className={styles.desc}>{text.mainText}</p>
+          {mythVsRealityItemDanger.map((text, index) => (
+            <p key={index} className={styles.desc}>
+              {text.mainText}
+            </p>
           ))}
         </div>
       </div>
