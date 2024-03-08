@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  @media screen and (max-width: 600px) {
+    gap: 40px;
+  }
+
+  @media screen and (max-width: 400px) {
+    gap: 30px;
+  }
+}
+
+.subtitle {
+  color: var(--blue);
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0%;
+  letter-spacing: 0.3px;
+  align-self: center;
+  margin-top: -7px;
+
+  @media screen and (max-width: 800px) {
+    line-height: normal;
+  }
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  @media screen and (max-width: 1060px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.arrow {
+  display: block;
+  max-width: 425px;
+  max-height: 54px;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../public/arrow-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media screen and (max-width: 1060px) {
+    max-width: 100%;
+    background-size: contain;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 70%;
+    height: auto;
+  }
+}
+
+.arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  height: 54px;
+  width: 100%;
+  margin: -50px 0 -28px 0;
+}
+
+.arrows :last-child {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}

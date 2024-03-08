@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: var(--blue);
+
+  @media screen and (max-width: 400px) {
+    gap: 20px;
+  }
+}
+
+.contentHeader {
+  width: 100%;
+  min-height: 110px;
+  background-image: url('../../../../public/vector-48.png');
+  background-repeat: no-repeat;
+  background-position: -45px;
+
+  @media screen and (max-width: 600px) {
+    min-height: 50px;
+  }
+}
+
+.title {
+  font-size: 2em;
+  padding-top: 20px;
+  font-family: 'gothic';
+}
+
+.signal {
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 0px var(--shadow);
+  background: linear-gradient(90deg, var(--yellow), var(--green));
+  padding: 23px;
+  text-align: center;
+
+  @media screen and (max-width: 800px) {
+    padding: 10px;
+  }
+}
+
+.signalText {
+  font-size: 1.4em;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  letter-spacing: 0.3px;
+
+  @media screen and (max-width: 800px) {
+    line-height: normal;
+  }
+}

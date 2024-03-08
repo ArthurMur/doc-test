@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  @media screen and (max-width: 600px) {
+    gap: 20px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 41px;
+  width: 100%;
+  text-align: center;
+
+  @media screen and (max-width: 600px) {
+    line-height: normal;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 54px;
+  width: 100%;
+
+  :nth-child(3) {
+    @media screen and (max-width: 1150px) {
+      grid-column: 1 / span 2;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 1150px) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 367px;
+  align-items: center;
+  width: 100%;
+  background-color: var(--yellow2);
+  border-radius: var(--border-radius);
+  padding: 30px 10px;
+
+  @media screen and (max-width: 1150px) {
+    max-width: 100%;
+  }
+}
+
+.researchInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.interest {
+  font-size: 4em;
+  text-align: center;
+}
+
+.infoDesc {
+  font-size: 1.08em;
+  text-align: center;
+  line-height: 100%;
+}
+
+.research {
+  font-size: 0.75em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon {
+  @media screen and (max-width: 1150px) {
+    width: 4em;
+    height: auto;
+  }
+}
