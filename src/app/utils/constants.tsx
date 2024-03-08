@@ -1,6 +1,6 @@
 export const mythVsRealityItems = [
   {
-    image: '/icon-man.png',
+    image: '/icon-man.svg',
     mainText:
       'В десятилетнем исследовании «Генетическая эпидемиология ХОБЛ» (COPDGene) среди пациентов с ХОБЛ, диагностированной до 55 лет, было выявлено преобладание...',
     subText: (
@@ -10,7 +10,7 @@ export const mythVsRealityItems = [
     ),
   },
   {
-    image: '/icon-danger.png',
+    image: '/icon-danger.svg',
     mainText:
       'Большинство пациентов с ХОБЛ столкнется с обострениями: как минимум одно среднетяжелое или тяжелое обострение случится в течение...',
     subText: (
@@ -23,7 +23,7 @@ export const mythVsRealityItems = [
 
 export const priorityAreasItemsWIthImage = [
   {
-    image: '/inhaler-icon.png',
+    image: '/inhaler-icon.svg',
     mainText: (
       <>
         Ингибирует бронхоконстрикторные эффекты ацетилхолина, вступая с ним в
@@ -40,7 +40,7 @@ export const priorityAreasItemsWIthImage = [
     ),
   },
   {
-    image: '/inhaler-icon.png',
+    image: '/inhaler-icon.svg',
     mainText:
       'Вызывает бронходилатацию посредством релаксации гладкомышечных клеток бронхов независимо от характера констриктивных стимулов, т. е. выступают в качестве функциональных антагонистов бронхоконстрикции',
     subText: (
@@ -50,7 +50,7 @@ export const priorityAreasItemsWIthImage = [
     ),
   },
   {
-    image: '/inhaler-icon.png',
+    image: '/inhaler-icon.svg',
     mainText:
       'Снижает частоту обострений, особенно в сочетании с ДДБА, подавляют хроническое воспаление при астме и снижают гиперреактивность дыхательных путей',
     subText: (
