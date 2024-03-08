@@ -12,8 +12,8 @@ type Props = {
 const Popup: React.FC<Props> = ({ onClose, index }) => {
   return (
     <div className={styles.overlay} onClick={onClose}>
+      <ButtonClose onClick={onClose} className={styles.btnClose} />
       <div className={styles.popup} onClick={(e) => e.stopPropagation()}>
-        <ButtonClose onClick={onClose} className={styles.btnClose} />
         {index === 1 ? <MythVsRealityItemMan /> : <MythVsRealityItemDanger />}
       </div>
     </div>
