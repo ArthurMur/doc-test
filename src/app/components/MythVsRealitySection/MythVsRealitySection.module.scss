@@ -6,6 +6,11 @@
 .contentHeader {
   min-height: 110px;
   margin-bottom: 31px;
+
+  @media screen and (max-width: 800px) {
+    min-height: 80px;
+  }
+
   @media screen and (max-width: 600px) {
     min-height: 50px;
   }
